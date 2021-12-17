@@ -1,10 +1,10 @@
-## Open Source Discord Nuker Tool
+<h1>Kali Kush - Account Nuker Tool</h1>
 
 This is a discord tool made by me, and SSL :)
 
-<h4>antho#1731</h4>
+```antho#1731``` 
 
-## How to use?
+<h2>How to use?</h2>
 
 `pip3 install -r requirements.txt`
 
